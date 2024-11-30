@@ -1,0 +1,16 @@
+1. Declaração de Variáveis
+
+	•	int buf[10];
+
+2. Função setup()
+
+Esta função é executada uma única vez, quando o Arduino é iniciado.
+	•	Serial.begin(9600);
+
+3. Função loop()
+
+Esta função é executada continuamente enquanto o Arduino está ligado.
+
+Etapa 1: Coleta de Amostras
+
+	•	for (int i = 0; i < 10; i++)
